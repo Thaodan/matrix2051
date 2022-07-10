@@ -27,7 +27,8 @@ defmodule M51.MixProject do
       releases: [
         matrix2051: [
           version: version(),
-          applications: [matrix2051: :permanent]
+          applications: [matrix2051: :permanent],
+          include_erts: false
         ]
       ]
     ]
